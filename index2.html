@@ -125,26 +125,27 @@ input:checked + label {
   }
 }
 
-    </style>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-
+      </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 </head>
-
 <body>
 <main>
   
   <input id="tab1" type="radio" name="tabs" checked>
   <label for="tab1">Info</label>
-    
+  
   <input id="tab2" type="radio" name="tabs">
   <label for="tab2">Video</label>
-    
+  
   <input id="tab3" type="radio" name="tabs">
   <label for="tab3">Poster</label>
-        
+  
   <section id="content1">
-    <div style="display:none;" class="html5gallery" data-skin="horizontal" data-responsive="true" data-bgimage="" data-bgcolor="#000" data-autoslide=true data-slideshowinterval="4000">
+    <div style="display:none;" class="html5gallery" data-skin="horizontal" 
+    data-responsive=true data-bgimage="" data-bgcolor="#000"
+    data-autoslide=true data-slideshowinterval="4000"
+    data-padding=0
+    >
       <!-- Add images to Gallery -->
       <a href="images/AnnabelleFrame1.jpg"><img src="images/AnnabelleFrame1.jpg" alt="'Eternal Love' Vancouver Charity Concert"></a>
       <a href="images/AnnabelleFrame2.jpg"><img src="images/AnnabelleFrame2.jpg" alt="April 2nd, 2017 (Sunday) 8pm at River Rock Casino"></a>
@@ -158,19 +159,19 @@ input:checked + label {
       - Hiding titles with data-thumbshowtitle="false" also cuts off the bottom of thumbnail. 
       - Two overlapping titles show over the video. 
     -->
-    <div style="display:none;" class="html5gallery" data-skin="mediapage" data-responsive="true" data-bgimage="" data-bgcolor="#000" data-thumbshowtitle="true" data-showtitle="true">
+    <div style="display:none;" class="html5gallery" data-skin="mediapage"
+    data-responsive="true" data-bgimage="" data-bgcolor="#000"
+    >
       <!-- Add Youtube video to Gallery -->
       <a href="http://www.youtube.com/embed/TVmlEGubU_Y"><img src="http://img.youtube.com/vi/TVmlEGubU_Y/3.jpg" alt="雷安娜真愛如昔溫哥華慈善演唱會Promo Clip 1"></a>
       <a href="http://www.youtube.com/embed/Q1c7izIjoOg"><img src="http://img.youtube.com/vi/Q1c7izIjoOg/3.jpg" alt="殘夢Broken Dreams雷安娜"></a>
     </div>
   </section>
-    
+  
   <section id="content3">
     <a href="images/AnnabelleInConcert2017.pdf"><img src="images/AnnabelleInConcert2017_small.jpg" alt="Download the concert poster"></a>
   </section>
-        
+  
 </main>
-  
-  
 </body>
 </html>
