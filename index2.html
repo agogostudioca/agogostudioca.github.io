@@ -71,16 +71,17 @@ label:before {
   margin-right: 10px;
 }
 
+/* Need Icons for narrow screen (iPhone) display! */
 label[for*='1']:before {
+  content: '\f05a';
 }
 
 label[for*='2']:before {
+  content: '\f1c8';
 }
 
 label[for*='3']:before {
-}
-
-label[for*='4']:before {
+  content: '\f1c1';
 }
 
 label:hover {
@@ -155,8 +156,9 @@ input:checked + label {
     <!-- work around several bugs:
       - Video content does not resize to desktops (until the browser window is manually resized). 
       - Hiding titles with data-thumbshowtitle="false" also cuts off the bottom of thumbnail. 
+      - Two overlapping titles show over the video. 
     -->
-    <div style="display:none;" class="html5gallery" data-skin="mediapage" data-responsive="true" data-bgimage="" data-bgcolor="#000" data-thumbshowtitle="true" data-showtitle="true">
+    <div style="display:none;" class="html5gallery" data-skin="mediapage" data-responsive="true" data-bgimage="" data-bgcolor="#000" data-thumbshowtitle="true">
       <!-- Add Youtube video to Gallery -->
       <a href="http://www.youtube.com/embed/TVmlEGubU_Y"><img src="http://img.youtube.com/vi/TVmlEGubU_Y/3.jpg" alt="雷安娜真愛如昔溫哥華慈善演唱會Promo Clip 1"></a>
       <a href="http://www.youtube.com/embed/Q1c7izIjoOg"><img src="http://img.youtube.com/vi/Q1c7izIjoOg/3.jpg" alt="殘夢Broken Dreams雷安娜"></a>
